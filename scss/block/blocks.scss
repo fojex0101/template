@@ -1,0 +1,29 @@
+@use "./header";
+@use "./hero";
+@use "./fonts";
+@use "./wrapper";
+@use "./normalize";
+@use  "./footer";
+@use "./visually-hidden";
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+html{
+    height: 100vh;
+}
